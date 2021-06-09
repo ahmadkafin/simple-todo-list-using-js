@@ -1,0 +1,202 @@
+body {
+  font-family: monospace;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.wrapper {
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-radius: 5px 10px 5px 10px;
+}
+
+.wrapper.dashboard {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-radius: 5px 10px 5px 10px;
+}
+
+.index {
+  border: 1px solid darkkhaki;
+  background-color: darkkhaki;
+}
+
+.signup {
+  border: 1px solid rgb(127, 190, 182);
+  background-color: rgb(127, 190, 182);
+}
+
+.login {
+  border: 1px solid rgb(27, 182, 230);
+  background-color: rgb(27, 182, 230);
+}
+
+.btn-wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 5%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-green {
+  background-color: teal;
+}
+
+.btn-green:hover {
+  background-color: rgb(3, 94, 94);
+}
+
+.btn-green:disabled {
+  cursor: not-allowed;
+  background-color: rgb(1, 51, 51);
+}
+
+.btn-blue {
+  background-color: cornflowerblue;
+}
+
+.btn-blue:hover {
+  background-color: rgb(68, 115, 201);
+}
+
+.btn-red {
+  background-color: rgb(216, 2, 2);
+}
+
+.btn-red:hover {
+  background-color: rgb(170, 3, 3);
+}
+
+.input-wrapper {
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  outline: none;
+  border: 3px solid rgb(80, 180, 247);
+}
+
+.form-control.error {
+  outline: none;
+  border: 3px solid rgb(199, 4, 4);
+}
+
+.form-control.error:focus {
+  outline: none;
+  border: 3px solid rgb(199, 4, 4);
+}
+
+.input-wrapper small {
+  color: rgb(204, 0, 0);
+}
+
+.btn-logout {
+  width: 100%;
+  display: inline-block;
+}
+
+.btn-logout button,
+.btn-logout a {
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.table {
+  width: 70%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.table td,
+.table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #aa4104;
+  color: white;
+}
+
+.badge {
+  display: flexbox;
+  float: right;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5%;
+  padding: 5px 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.badge.danger {
+  background-color: rgb(216, 2, 2);
+  border: 1px solid rgb(216, 2, 2);
+  color: white;
+}
+
+.badge.done {
+  background-color: rgb(105, 216, 2);
+  border: 1px solid rgb(105, 216, 2);
+  color: white;
+}
+
+.coret {
+  text-decoration: line-through;
+}
+
+.btn-wrapper-edit {
+  display: flex;
+  width: 70%;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hidden {
+  display: none;
+}

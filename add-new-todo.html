@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper signup">
+            <h1 class="title">Signup</h1>
+            <form id="todoForm" method="POST">
+                <div class="input-wrapper">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" class="form-control" name="firstName"
+                        placeholder="First Name..." />
+                    <small></small>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" class="form-control" name="lastName" placeholder="Last Name... " />
+                    <small></small>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" class="form-control" name="email" placeholder="Email.." />
+                    <small></small>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" name="password"
+                        placeholder="Password.." />
+                    <small id="pw-error"></small>
+                </div>
+
+                <div class="input-wrapper">
+                    <input type="checkbox" name="agree-terms" id="terms" />
+                    <label for="">I agree to the Terms of Use.</label>
+                </div>
+                <div class=" btn-wrapper">
+                    <button type="submit" class="btn btn-green" id="submit">Submit</button>
+                    <a href="index.html" class="btn btn-red">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script-signup.js"></script>
+</body>
+
+</html>
